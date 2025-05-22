@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
     //물리연산을 하는것은 FixedUpdate에서 하는게 좋다.
     private void FixedUpdate()
     {
-        
+
     }
     private void LateUpdate()
     {
