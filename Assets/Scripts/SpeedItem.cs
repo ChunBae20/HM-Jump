@@ -10,7 +10,7 @@ public class SpeedItem : ItemBlueprint
 
     protected override void ExecuteFunction()
     {
-        PC.moveSpeed = 10f;
+        PC.moveSpeed += 8f;
         Debug.Log("스피드 빨리짐");
         showParticle();
     }
