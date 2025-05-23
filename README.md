@@ -1,5 +1,8 @@
 # HM-Jump
 Jump_3D_MiniGame
+
+speedItem 스크립트에 분명히 코루틴 넣었는데 어째서...적용이안될까요,,
+
 <img width="466" alt="image" src="https://github.com/user-attachments/assets/4fcb7d2a-814f-42f6-82de-51992ec2e7be" />
 <br/>
 맵에 빨강 계열 오브젝트는 속도에 관련된 아이템 입니다.<br/>
@@ -9,7 +12,7 @@ Jump_3D_MiniGame
 <br/>
 맵에 둥둥 떠다니는 cube는 플레이어와 접촉시 영구적으로 속도가 상승 합니다.
 <br/>
-사진과 같이 이동속도가 빨라지며 먹는 효과 파티클이 일정 시간동안 생성됨
+사진과 같이 이동속도가 빨라지며 먹는 효과 파티클이 일정 시간동안 생성됩니다
 <br/><br/>
 <img width="293" alt="image" src="https://github.com/user-attachments/assets/b9734912-c95e-4d23-a927-b5e9ea95a378" />
 <br/>
@@ -20,4 +23,13 @@ Jump_3D_MiniGame
 <img width="211" alt="image" src="https://github.com/user-attachments/assets/04a2974c-23eb-4936-bd16-38a0081dca04" />
 <br/>
 맵에 이런 어두운 다크블루 색의 발판은 점프 발판 입니다. 밟으면 점프를 합니다
+<br/>
+![떨어지면 초기화 후 리스폰](https://github.com/user-attachments/assets/76ab3799-a211-4a39-b3e6-b0bdaf4e2026)
+<br/>
+플레이어가 일정 높이보다 낮아지면 스폰장소로 리스폰 됩니다 
+그로 오른쪽 아래의 체력한칸 줄입니다.
 
+![스태미나](https://github.com/user-attachments/assets/05058f64-a087-40cb-8def-a092a873c21f)
+<br/>
+<br/>
+LShift(왼쪽시프트)를 누르면 왼쪽의 스태미나 줄어듭니다. 
