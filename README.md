@@ -24,7 +24,8 @@ speedItem 스크립트에 분명히 코루틴 넣었는데 어째서...적용이
 <br/>
 맵에 이런 어두운 다크블루 색의 발판은 점프 발판 입니다. 밟으면 점프를 합니다
 <br/>
-![떨어지면 초기화 후 리스폰](https://github.com/user-attachments/assets/76ab3799-a211-4a39-b3e6-b0bdaf4e2026)
+![떨어지면초기화](https://github.com/user-attachments/assets/64a20dba-2344-4c70-baa7-7cd0fdef8abc)
+
 <br/>
 플레이어가 일정 높이보다 낮아지면 스폰장소로 리스폰 됩니다 
 그로 오른쪽 아래의 체력한칸 줄입니다.
