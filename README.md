@@ -5,7 +5,8 @@ Jump_3D_MiniGame
 맵에 빨강 계열 오브젝트는 속도에 관련된 아이템 입니다.
 맵에 파랑 계열 오브젝트는 점프에 관련된 아이템 입니다.
 
-![큐브형](https://github.com/user-attachments/assets/3367bf70-8ba2-45d3-951f-bc82c5e9a464)
+![이속 아이템2](https://github.com/user-attachments/assets/26601542-c3a3-4fde-a411-f4a903884c02)
+
 맵에 둥둥 떠다니는 cube는 플레이어와 접촉시 영구적으로 속도가 상승 합니다.
 ![이속 아이템](https://github.com/user-attachments/assets/8af2d556-9718-48a2-b9dd-232b804860ae)
 사진과 같이 이동속도가 빨라지며 먹는 효과 파티클이 일정 시간동안 생성됨
