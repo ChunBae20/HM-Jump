@@ -8,7 +8,8 @@ speedItem 스크립트에 분명히 코루틴 넣었는데 어째서...적용이
 맵에 빨강 계열 오브젝트는 속도에 관련된 아이템 입니다.<br/>
 맵에 파랑 계열 오브젝트는 점프에 관련된 아이템 입니다.
 <br/>
-![이속 아이템2](https://github.com/user-attachments/assets/26601542-c3a3-4fde-a411-f4a903884c02)
+![스피디](https://github.com/user-attachments/assets/aec6ac2f-5d89-4d2f-b0cd-9ee4231141b7)
+
 <br/>
 맵에 둥둥 떠다니는 cube는 플레이어와 접촉시 영구적으로 속도가 상승 합니다.
 <br/>
@@ -24,7 +25,8 @@ speedItem 스크립트에 분명히 코루틴 넣었는데 어째서...적용이
 <br/>
 맵에 이런 어두운 다크블루 색의 발판은 점프 발판 입니다. 밟으면 점프를 합니다
 <br/>
-![떨어지면초기화](https://github.com/user-attachments/assets/64a20dba-2344-4c70-baa7-7cd0fdef8abc)
+
+![초기화](https://github.com/user-attachments/assets/7d3f2e16-914a-4f54-a13f-a739b3a91376)
 
 <br/>
 플레이어가 일정 높이보다 낮아지면 스폰장소로 리스폰 됩니다 
