@@ -8,14 +8,14 @@ using static ItemSo;
 public class ItemSo : ScriptableObject
 {
     //아이템 이름 정하기
-    [Header("아이템 이름")]
+    //[Header("아이템 이름")]
     [Tooltip("이름을 등록하세요")]
     [SerializeField]
     private string itemName;
     public string ItemName { get { return itemName; } }
 
     //아이템 설명
-    [Header("아이템 설명")]
+    //[Header("아이템 설명")]
     [Tooltip("아이템의 설명쓰셈")]
     [SerializeField]
     private string itemDescription;

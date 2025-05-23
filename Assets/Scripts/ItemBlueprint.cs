@@ -9,7 +9,7 @@ using UnityEngine;
 /// </summary>
 public abstract class ItemBlueprint : MonoBehaviour
 {
-
+    public ItemSo SO;
     protected BoxCollider2D bc;
 
     public PlayerController PC;
