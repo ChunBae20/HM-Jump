@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 280ad3f943d484342a1f380c1fd5b56a, type: 3}
+  m_Name: Instant_Speed_pill
+  m_EditorClassIdentifier: 
+  itemName: "\uC989\uC11D \uC18D\uB3C4\uC758 \uC601\uC57D"
+  itemDescription: "\uC774\uAC70 \uBA39\uC73C\uBA74 \uC601\uAD6C\uC801\uC73C\uB85C
+    \uC18D\uB3C4 10\uC99D\uAC00"
+  itemTier: 1
+  canEdible: 1
+  edibleType: 0
