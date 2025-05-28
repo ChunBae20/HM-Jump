@@ -64,6 +64,7 @@ public class PlayerController : MonoBehaviour
         dir.y = _rigidbody.velocity.y;
 
         _rigidbody.velocity = dir;
+        //Debug.Log("현재 속도 : " + moveSpeed);
     }
 
     void CameraLook()

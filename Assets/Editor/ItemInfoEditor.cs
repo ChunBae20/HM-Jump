@@ -25,7 +25,7 @@ public class ItemDataEditor : Editor
         EditorGUILayout.PropertyField(itemTierProp);
 
         // TierStat (읽기 전용)
-        EditorGUILayout.LabelField("자동 계산 스탯 (TierStat)", data.TierStat.ToString());
+        EditorGUILayout.LabelField("계산된 스탯", data.TierStat.ToString());
 
         // 먹는 템 여부
         EditorGUILayout.Space();
@@ -43,6 +43,8 @@ public class ItemDataEditor : Editor
             SerializedProperty edibleTypeProp = serializedObject.FindProperty("edibleType");
             EditorGUILayout.PropertyField(edibleTypeProp, new GUIContent("Edible Type"));
         }
+
+
 
         serializedObject.ApplyModifiedProperties();
     }

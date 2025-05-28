@@ -11,8 +11,11 @@ public class SpeedItem : ItemBlueprint
     protected override void ExecuteFunction()
     {
         PC.moveSpeed += 8f;
-        Debug.Log("스피드 빨리짐");
+        Debug.Log("5초간 빨리짐 시작 ");
         showParticle();
+        StartCoroutine( FiveSec());
+        Debug.Log("5초간 빨리짐 종료");
+
     }
 
     protected override void Start()
@@ -27,4 +30,11 @@ public class SpeedItem : ItemBlueprint
         GameObject showPref = Instantiate(speedParticle, transform.position, Quaternion.identity);
         showPref.GetComponent<ParticleSystem>().Play();
     }
+
+    IEnumerator FiveSec()
+    {
+        yield return new WaitForSeconds(5f);
+        PC.moveSpeed -= 8f;
+    }
+
 }

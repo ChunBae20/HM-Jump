@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   itemDescription: 
-  itemTier: 1
+  itemTier: 0
   canEdible: 0
   edibleType: 0
